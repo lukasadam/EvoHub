@@ -1,0 +1,26 @@
+track human_SVs
+shortLabel Human-specific Structural Variants
+longLabel Human-specific Structural Variants (Kronenberg 2018)
+type bigBed
+bigDataUrl Humanspecific_structural_variants__Kronenberg_2018_signature.bb
+visibility dense
+priority 10
+itemRgb on
+
+track human_hCONDELs
+shortLabel Human-specific Deletions
+longLabel Human-specific Deletions (Xue 2013)
+type bigBed
+bigDataUrl Humanspecific_deletions__Xue_2013_signature.bb
+visibility dense
+priority 10
+itemRgb on
+
+track human_HARs
+shortLabel Human-accelerated Regions
+longLabel Human-accelerated Regions (Pollard 2006)
+type bigBed
+bigDataUrl Humanaccelarated_regions__Pollard_2006_signature.bb
+visibility dense
+priority 10
+itemRgb on
