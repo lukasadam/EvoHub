@@ -7,11 +7,20 @@ visibility dense
 priority 10
 itemRgb on
 
-track human_hCONDELs
+track human_hCONDELs1
 shortLabel Human-specific Deletions
 longLabel Human-specific Deletions (Xue 2013)
 type bigBed
 bigDataUrl Humanspecific_deletions__Xue_2013_signature.bb
+visibility dense
+priority 10
+itemRgb on
+
+track human_hCONDELs2
+shortLabel Human-specific Deletions
+longLabel Human-specific Deletions (Mclean 2011)
+type bigBed
+bigDataUrl Humanspecific_deletions__McLean_2011_signature.bb
 visibility dense
 priority 10
 itemRgb on
@@ -21,6 +30,42 @@ shortLabel Human-accelerated Regions
 longLabel Human-accelerated Regions (Pollard 2006)
 type bigBed
 bigDataUrl Humanaccelarated_regions__Pollard_2006_signature.bb
+visibility dense
+priority 10
+itemRgb on
+
+track human_DHSs
+shortLabel Human-accelerated DNAse I Hypersensitive sites 
+longLabel Human-accelerated DNAse I Hypersensitive sites (Gittelman 2015)
+type bigBed
+bigDataUrl Humanaccelerated_DNase_I_hypersensitive_sites__Gittelman_2015_signature.bb
+visibility dense
+priority 10
+itemRgb on
+
+track human_SDSs
+shortLabel Human-specific segmental duplications 
+longLabel Human-specific segmental duplications (Dennis 2017)
+type bigBed
+bigDataUrl Humanspecific_segmental_duplications__Dennis_2017_signature.bb
+visibility dense
+priority 10
+itemRgb on
+
+track human_sel_sweep_apes
+shortLabel Selective sweeps between human and apes 
+longLabel Selective sweeps between human and apes (Cagan 2016)
+type bigBed
+bigDataUrl Selective_Sweep__Apes__Cagan_2016_signature.bb
+visibility dense
+priority 10
+itemRgb on
+
+track human_sel_sweep_modern_humans
+shortLabel Selective sweeps between human and modern humans
+longLabel Selective sweeps between human and modern humans (Peyregne 2017)
+type bigBed
+bigDataUrl Selective_Sweep__Modern_Humans__Peyregne_2017_signature.bb
 visibility dense
 priority 10
 itemRgb on
