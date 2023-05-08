@@ -1,0 +1,5 @@
+hub	EvoHub
+shortLabel	Evo Hub Short Label
+longLabel	Evo Hub Long Label
+genomesFile	genomes.txt
+email	lukas.adam@roche.com
